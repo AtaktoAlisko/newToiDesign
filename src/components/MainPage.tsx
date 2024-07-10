@@ -29,7 +29,7 @@ export default function MainPage() {
     <div className="relative flex h-screen w-screen flex-col items-center justify-center bg-[url('/main-bg.jpeg')] bg-cover bg-center bg-no-repeat font-xxx">
       <div className="absolute top-10 flex w-full flex-col items-center text-center">
         <h1>Үйлену тойына шақыру</h1>
-        <Image src={main} alt="main" width={270} height={270} />
+        <Image src={main} alt="main" width={220} height={220} />
 
         <div className="relative mb-2 mt-3 flex items-center justify-center">
           <Image
@@ -57,8 +57,7 @@ export default function MainPage() {
         <div className="flex flex-col">
           <h1 className="ml-[-100px] text-4xl">Абылай</h1>
           <h1 className="text-3xl">&</h1>
-          <h1 className="ml-[100px] text-4xl">Ботакөз
-          </h1>
+          <h1 className="ml-[100px] text-4xl">Ботакөз</h1>
           <p className="mt-3 text-2xl">09/08/2024</p>
         </div>
       </div>
