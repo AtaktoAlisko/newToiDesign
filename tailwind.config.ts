@@ -9,9 +9,8 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      screens: {
-        xs: "320px",
-        sms: "480px",
+      maxWidth: {
+        "380px": "380px",
       },
       fontFamily: {
         comfortaa: ["Comfortaa", "sans-serif"],
@@ -20,20 +19,21 @@ const config: Config = {
       },
       animation: {
         "spin-slow": "spin 10s linear infinite",
-        'spin-slowly': 'spin-slow 10s linear infinite',
+        "spin-slowly": "spin-slow 10s linear infinite",
       },
       keyframes: {
         spin: {
           "0%": { transform: "rotate(0deg)" },
           "100%": { transform: "rotate(360deg)" },
         },
-        'spin-slow': {
-          '0%': { transform: 'rotate(0deg)' },
-          '100%': { transform: 'rotate(-360deg)' },
+        "spin-slow": {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(-360deg)" },
         },
       },
     },
   },
   plugins: [],
 };
+
 export default config;
