@@ -29,7 +29,7 @@ const BootstrapCarousel: React.FC = () => {
   return (
     <div
       id="carouselExampleIndicators"
-      className="carousel slide w-full px-3 xs:h-[350px] sms:h-[477px] sms:w-[414px]"
+      className="carousel slide xs:h-[350px] sms:h-[477px] sms:w-[414px] w-full px-3"
       data-bs-ride="carousel"
     >
       <div className="carousel-indicators">

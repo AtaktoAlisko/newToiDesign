@@ -12,8 +12,8 @@ export default function MainContent() {
   }, []);
 
   return (
-    <div className="mb-10 mt-12 flex flex-col items-center justify-center text-center">
-      <BootstrapCarousel />
+    <div className="mb-10 mt-20 flex flex-col items-center justify-center text-center">
+      {/* <BootstrapCarousel /> */}
       <div
         data-aos="fade-up"
         className="my-8 text-center font-xxx text-xl leading-loose text-[#98761A]"
