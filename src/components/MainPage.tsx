@@ -27,13 +27,13 @@ export default function MainPage() {
 
   return (
     <div className="relative flex h-screen w-screen flex-col items-center justify-center bg-[url('/main-bg.jpeg')] bg-cover bg-center bg-no-repeat font-xxx">
-      <div className="absolute top-10 flex w-full flex-col items-center text-center">
-        <h1>Үйлену тойына шақыру</h1>
+      <div className="absolute top-5 flex w-full flex-col items-center text-center">
+        <h1 className="text-2xl">Үйлену тойына шақыру</h1>
         <Image
           src={main}
           alt="main"
-          width={200}
-          height={200}
+          width={250}
+          height={250}
           className="max-w-[250px] sm:max-w-[150px]"
         />
 
