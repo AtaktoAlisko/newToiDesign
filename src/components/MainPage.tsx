@@ -31,9 +31,9 @@ export default function MainPage() {
         <div className="relative h-3/4 w-3/4 bg-white p-5 opacity-75">
           <div className="text-center">
             <p className="mb-20 text-xl font-bold">Үйлену тойға шақыру</p>
-            <p className="mt-4 text-4xl font-extrabold">ДАНАТ </p>
+            <p className="mt-4 text-4xl font-extrabold">Абылай </p>
             <p className="mt-4 text-4xl font-extrabold"> & </p>
-            <p className="mt-4 text-4xl font-extrabold"> ГАУҺАР</p>
+            <p className="mt-4 text-4xl font-extrabold"> Ботакөз</p>
             <p className="mt-2 text-lg font-light">wedding</p>
             <button
               onClick={play}
@@ -41,7 +41,7 @@ export default function MainPage() {
             >
               {isPlaying ? "pause" : "play"}
             </button>
-            <div className=" top-5 mt-[50px] flex w-full flex-col items-center text-center">
+            <div className="top-5 mt-[50px] flex w-full flex-col items-center text-center">
               <div className="relative mb-2 mt-3 flex items-center justify-center">
                 <Image
                   src="/mus-bg.png"
