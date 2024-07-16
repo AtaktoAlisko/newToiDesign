@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Абылай && Ботакөз той ",
+  title: "Абылай && Ботакөз той",
   description: "toy",
 };
 
@@ -13,7 +13,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-[url('/all-bg.jpg')]">{children}</body>
+      <body className="bg-[url('/all-bg.jpg')] bg-cover bg-fixed bg-center">
+        {children}
+      </body>
     </html>
   );
 }
